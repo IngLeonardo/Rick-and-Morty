@@ -25,7 +25,7 @@ export function App() {
         ):(
           <>
           <img className="w-6/12" src={imgHome} alt="Rick and Morty portada" />
-          <button className="p-3 bg-lime-700 text-white rounded-md my-5 w-9/12 font-bold
+          <button className="p-3 bg-lime-700 text-white rounded-md my-5 w-9/12 font-semibold
                           sm:w-3/12" onClick={requestApi}>Buscar personajes</button>
           </>
         )}

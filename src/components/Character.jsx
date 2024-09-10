@@ -8,8 +8,8 @@ export default function Character({ characters, setCharacter }) {
 
     return (
         <>
-            <h1 id="card" className="text-white font-extrabold text-5xl my-6">Personajes</h1>
-            <button  className="text-white m-4 p-4 bg-cyan-800 rounded-full transition ease-out duration-1000 hover:bg-cyan-600" onClick={ resetCharacter }>Volver al inicio</button>
+            <h1 id="title" className="text-white font-extrabold text-5xl my-8">Personajes</h1>
+            <button  className="text-white m-4 p-4 font-semibold bg-lime-700 rounded-full transition ease-out duration-1000  hover:bg-cyan-800" onClick={ resetCharacter }>Volver al inicio</button>
             
             {/* Diseño de la card */}
             <div className="flex flex-wrap gap-3 justify-center m-2 p-2 text-white w-11/12 ">
@@ -51,7 +51,7 @@ export default function Character({ characters, setCharacter }) {
                 )}
             </div>
             <div className="my-4 ">
-                <a className="text-cyan-600 shadow-l transition ease-linear duration-900 hover:text-cyan-700" href="#card">
+                <a className="text-lime-700 shadow-l transition ease-linear duration-900 hover:text-cyan-700" href="#title">
                     <i className="fa-solid fa-circle-arrow-up animate-bounce text-5xl"></i>
                 </a>
             </div>
